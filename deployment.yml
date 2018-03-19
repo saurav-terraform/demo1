@@ -1,0 +1,10 @@
+-
+  name: Act1-Scene1-War-copy
+  hosts: demo
+  sudo: yes
+  tasks:
+     - name: copy_code
+       copy:
+              src: ./app.js
+              dest: /home/ubuntu/ 
+
