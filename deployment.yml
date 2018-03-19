@@ -6,5 +6,7 @@
      - name: copy_code
        copy:
               src: ./app.js
-              dest: /home/ubuntu/ 
+              dest: /home/ubuntu/
+     - name: exec_command
+       command: node /home/ubuntu/app.js
 
