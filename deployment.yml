@@ -6,7 +6,7 @@
      - name: copy_code
        copy:
               src: ./app.js
-              dest: /
+              dest: /node_app/
      - name: exec_command
        command: node /app.js
 
