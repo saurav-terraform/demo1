@@ -8,5 +8,5 @@
               src: ./app.js
               dest: /node_app/
      - name: exec_command
-       command: node /app.js
+       command: node /node_app/app.js
 
